@@ -8,7 +8,7 @@ body, html {
 }
 
 .full-screen-image {
-    background-image: url('avrilyjusto.png'); /* Replace with your image file name */
+    background-image: url('avrilyjusto.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
