@@ -18,6 +18,6 @@ body, html {
 @media (max-width: 600px) {
     /* CSS rules for screens with a maximum width of 600px */
     .column {
-        width: 100%;
+        width: 90%;
     }
 }
