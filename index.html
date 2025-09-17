@@ -1,14 +1,31 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wwww.TatuateUnaSecta.Com</title>
-    <link rel="stylesheet" href="css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Www.TatuateUnaSecta.Com</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden; /* evita scroll si la imagen se sale */
+    }
+
+    img.fondo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover; /* cubre todo sin importar el aspect ratio */
+      z-index: -1;
+    }
+  </style>
 </head>
-    
 <body>
-    <div class="full-screen-image"></div>
-    
-    <audio id="background-audio" src="avril.mp3" autoplay loop></audio>
+  <img src="avrilyjusto.png" alt="Fondo" class="fondo">
 </body>
 </html>
+
+
