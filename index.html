@@ -9,23 +9,21 @@
       margin: 0;
       padding: 0;
       height: 100%;
-      overflow: hidden; /* evita scroll si la imagen se sale */
+      overflow: hidden;
     }
 
-    img.fondo {
+    img.fullscreen {
       position: fixed;
       top: 0;
       left: 0;
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover; /* cubre todo sin importar el aspect ratio */
+      width: 100vw;   /* Estira al 100% del ancho */
+      height: 100vh;  /* Estira al 100% del alto */
+      object-fit: fill; /* Deforma la imagen para llenar */
       z-index: -1;
     }
   </style>
 </head>
 <body>
-  <img src="avrilyjusto.png" alt="Fondo" class="fondo">
+  <img src="avrilyjusto.png" alt="Imagen de fondo" class="fullscreen">
 </body>
 </html>
-
-
